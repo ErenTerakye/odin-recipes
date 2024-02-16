@@ -4,12 +4,30 @@
 
 .main-title {
     text-align: center;
-    background-color: black;
-    color: white;
 }
 
 .food-photo {
     display: block;
-    margin-left: auto;
+    margin: 32px auto;
+    border: 4px solid black;
+}
+
+.recipe {
     margin-right: auto;
+}
+
+.description {
+    text-align: center;
+}
+
+.description p,
+.ingredients ul,
+.steps li {
+    color: #606060;
+}
+
+.description,
+.ingredients,
+.steps {
+    margin: 32px 0;
 }
